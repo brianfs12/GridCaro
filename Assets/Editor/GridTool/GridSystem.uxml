@@ -1,0 +1,21 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <Style src="project://database/Assets/Editor/GridTool/GridSystem.uss?fileID=7433441132597879392&amp;guid=512262505f563464f94e159b139ab7e5&amp;type=3#GridSystem" />
+    <ui:VisualElement name="Container" class="container">
+        <ui:VisualElement name="valuesContainer" class="values">
+            <uie:ObjectField label="Grid Data" name="GridData" />
+            <uie:IntegerField label="Rows" value="42" name="Rows" class="field" />
+            <uie:IntegerField label="Columns" value="42" name="Columns" class="field" />
+        </ui:VisualElement>
+        <ui:VisualElement name="creatGridContainer" class="creategrid">
+            <ui:Button text="Create Grid" display-tooltip-when-elided="true" name="btnSini" class="btnCreateGrid" />
+        </ui:VisualElement>
+        <ui:VisualElement name="gridContainer" class="gridContainer" style="height: auto;">
+            <ui:VisualElement name="toolsContainer" class="toolContainer">
+                <ToolElement gridobject-attr="Assets/PreFabs/grass.prefab" class="tool" />
+                <ToolElement color-attr="#935E23FF" gridobject-attr="Assets/PreFabs/forest.prefab" class="tool" style="background-color: rgb(152, 92, 41);" />
+                <ToolElement color-attr="#13D2D9FF" gridobject-attr="Assets/Prefabs/water.prefab" class="tool" style="background-color: rgb(17, 172, 212);" />
+            </ui:VisualElement>
+            <ui:ScrollView name="grid" mode="VerticalAndHorizontal" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

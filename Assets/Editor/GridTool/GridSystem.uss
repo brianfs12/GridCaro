@@ -1,0 +1,95 @@
+VisualElement {
+}
+
+.values {
+    margin-top: 10px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgba(132, 14, 14, 255);
+    border-right-color: rgba(132, 14, 14, 255);
+    border-top-color: rgba(132, 14, 14, 255);
+    border-bottom-color: rgba(132, 14, 14, 255);
+    width: 96%;
+}
+
+.container {
+    width: 100%;
+    align-items: center;
+}
+
+.field {
+    border-top-width: 5px;
+}
+
+.gridContainer {
+    width: 100%;
+    border-top-width: 10px;
+    height: auto;
+    background-color: rgba(82, 82, 82, 255);
+}
+
+.creategrid {
+    border-top-width: 10px;
+    align-items: center;
+}
+
+.btnCreateGrid {
+    font-size: 20px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.rows {
+    width: 100%;
+    flex-direction: row;
+    border-left-color: rgba(0, 255, 228, 255);
+    border-right-color: rgba(0, 255, 228, 255);
+    border-top-color: rgba(0, 255, 228, 255);
+    border-bottom-color: rgba(0, 255, 228, 255);
+}
+
+.columns {
+    width: 50px;
+    height: 50px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgba(0, 255, 142, 255);
+    border-right-color: rgba(0, 255, 142, 255);
+    border-top-color: rgba(0, 255, 142, 255);
+    border-bottom-color: rgba(0, 255, 142, 255);
+}
+
+.columns:hover {
+    width: 50px;
+    height: 50px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-color: rgb(255, 246, 0);
+    border-right-color: rgb(255, 246, 0);
+    border-top-color: rgb(255, 246, 0);
+    border-bottom-color: rgb(255, 246, 0);
+}
+
+.tool {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(89, 212, 17, 255);
+    padding-left: 0;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.toolContainer {
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
